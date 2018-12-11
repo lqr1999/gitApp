@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/beijing2"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    >
+ <TextView
+    android:id="@+id/asubject"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="主题:"
+    android:textSize="12pt"
+    android:textColor="@color/black"
+    />
+ <EditText
+    android:id="@+id/aisubject"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+ <TextView
+    android:id="@+id/adate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="日期："
+    android:textSize="12pt"
+    android:textColor="@color/black"
+    
+    />
+ <EditText
+    android:id="@+id/aidate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<RadioGroup
+    android:id="@+id/Group"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    >
+<RadioButton
+    android:id="@+id/personal"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="个人"
+    android:textColor="@color/black"
+    />
+<RadioButton
+    android:id="@+id/learning"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="学习"
+    android:textColor="@color/black"
+    />
+<RadioButton
+    android:id="@+id/work"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="工作"
+    android:textColor="@color/black"
+    />
+</RadioGroup>
+ <TextView
+    android:id="@+id/neirong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="内容："
+    android:textSize="12pt"
+    android:textColor="@color/black"
+    
+    />
+ <EditText
+    android:id="@+id/aineirong"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+ <LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="15dip"
+    android:paddingLeft="5dip"
+    >
+   <Button
+   android:id="@+id/atijiao"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="提交"
+   /> 
+   <Button
+   android:id="@+id/areset"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="重填"
+   /> 
+   <Button
+   android:id="@+id/aback"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="返回菜单主界面"
+   /> 
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

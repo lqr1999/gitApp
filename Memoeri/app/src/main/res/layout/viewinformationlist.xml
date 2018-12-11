@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:background="@drawable/beijing2"
+    >
+ <TextView
+    android:id="@+id/vusername"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="12pt"
+    
+    />
+<Button
+    android:id="@+id/vbackmainmenu"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="返回主菜单界面"
+    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+ 
+    >
+ <TextView
+    android:id="@+id/left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="主题"
+    android:textSize="12pt"
+    android:textColor="@color/black"
+    />
+ <TextView
+    android:id="@+id/right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="日期"
+    android:textSize="12pt"
+    android:textColor="@color/black"
+    />
+    </LinearLayout>
+ <ListView
+     android:id="@id/android:list"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+   />
+</LinearLayout>

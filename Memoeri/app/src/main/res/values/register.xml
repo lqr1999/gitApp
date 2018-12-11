@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <string name="r_app_name">注册用户</string>
+ <string name="rusername">用户名：</string>
+ <string name="ruserpassword">密码：</string>
+ <string name="rreuserpassword">确认密码：</string>
+ <string name="tishipassword">密码提示：（这里只能使用字母组成的提示！）</string>
+ <string name="tijiao">提交</string>
+ <string name="backindex">返回首页</string>
+ 
+</resources>

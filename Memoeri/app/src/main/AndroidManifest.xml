@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <manifest android:versionName="1.0" android:versionCode="1" package="com.example.liang.memoeri"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/logo">
+    <activity android:label="@string/app_name" android:name="LoginPersonalBackUp">
+    <intent-filter>
+    <action android:name="android.intent.action.MAIN"/>
+    <category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+</activity>
+    <activity android:label="@string/r_app_name" android:name=".RegisterPersonalBackUp">
+    <intent-filter>
+    <action android:name="android.intent.action.MAIN"/>
+    <category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+</activity>
+    <activity android:label="找回密码" android:name="FindPasswordPersonalBackUp"/>
+        <activity android:label="记录列表" android:name="ViewInformationPersonalBackUp"/>
+    <activity android:label="详细记录" android:name="ViewBelievePersonalBackUp"/>
+    <activity android:label="备忘录主界面" android:name="Mian_personalBackUp"/>
+</application>
+</manifest>

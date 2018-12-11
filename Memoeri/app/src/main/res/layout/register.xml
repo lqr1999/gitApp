@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/beijing2"
+    >
+<TextView
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/rusername"
+    android:textColor="@color/black"
+    />
+<EditText
+    android:id="@+id/riusername"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:id="@+id/userpassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ruserpassword"
+    android:textColor="@color/black"
+    />
+<EditText
+    android:id="@+id/riuserpassword"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:id="@+id/rruserpassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/rreuserpassword"
+    android:textColor="@color/black"
+    />
+<EditText
+    android:id="@+id/rriuserpassword"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:id="@+id/rtishipassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tishipassword"
+    android:textColor="@color/black"
+    />
+<EditText
+    android:id="@+id/rritishipassword"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button
+    android:id="@+id/tijiao"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tijiao"
+    />   
+<Button
+    android:id="@+id/backindex"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/backindex"
+    
+    />   
+
+</LinearLayout>
+</LinearLayout>

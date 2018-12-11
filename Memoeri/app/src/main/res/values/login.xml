@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="username">姓名:</string>
+  <string name="userpassword">密码:</string>
+  <string name="login">登陆</string>
+  <string name="exit">退出</string>
+  <string name="register">注册用户</string>
+  <string name="retrievepassword">找回秘密</string>
+</resources>
